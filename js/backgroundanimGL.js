@@ -4,8 +4,10 @@ const dotcnt = 350;
 const speed = 0.002;
 const widening = 1.3;
 
-var colorTop = [0.1, 0.5, 0.6, 1];
-var colorBottom = [0.1, 0.1, 0.3, 1];
+var colorTop = [Math.random(), Math.random(), Math.random(), 1];
+var colorBottom = [Math.random(), Math.random(), Math.random(), 1];
+console.log(colorTop);
+console.log(colorBottom);
 
 const vertShader =
   `
